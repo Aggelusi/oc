@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Store</title>
+    <link rel="stylesheet" href="css/checkout.css">
+
+</head>
+<body>
+    <header>
+        <h1>My Store</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="checkout">
+        <h2>Checkout</h2>
+        <form>
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required>
+    
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="address">Shipping Address</label>
+            <input type="text" id="address" name="address" required>
+    
+            <label for="payment">Payment Information</label>
+            <input type="text" id="payment" name="payment" placeholder="Credit Card Number" required>
+    
+            <button type="submit">Place Order</button>
+        </form>
+    </section>    
+
+    <script src="js/script.js"></script>
+</body>
+</html>

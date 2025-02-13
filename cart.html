@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Store</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cart.css">
 </head>
 <body>
     <header>
@@ -20,11 +20,24 @@
         </nav>
     </header>
 
-    <section class="hero">
-        <h2>Welcome to Our Store</h2>
-        <p>Discover amazing products at great prices.</p>
-        <a href="shop.html"><button>Shop Now</button></a>
+    <section class="cart">
+        <h2>Your Cart</h2>
+        <div class="cart-items">
+            <div class="cart-item">
+                <img src="images/product1.jpg" alt="Product 1">
+                <div class="item-details">
+                    <h3>Product 1</h3>
+                    <p>Price: $19.99</p>
+                    <button>Remove</button>
+                </div>
+            </div>
+        </div>
+        <div class="cart-summary">
+            <p>Total: $19.99</p>
+            <button>Proceed to Checkout</button>
+        </div>
     </section>
+    
 
     <script src="js/script.js"></script>
 </body>
